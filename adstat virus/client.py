@@ -16,7 +16,7 @@ except:
         num +=1
 class client():
     def __init__(self, port):
-        self.ip = '192.168.159.1'
+        self.ip = '192.0.0.1'
         self.port = port
         self.myip = socket.gethostbyname(socket.gethostname())
     def connect(self):
