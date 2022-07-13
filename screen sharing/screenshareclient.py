@@ -14,7 +14,7 @@ except:
         num +=1
 class scrsharing():
     def __init__(self, port):
-        self.ip = '195.213.112.251'
+        self.ip = '192.0.0.1'
         self.port = port
         self.myip = socket.gethostbyname(socket.gethostname())
     def connect(self):
